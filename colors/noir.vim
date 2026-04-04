@@ -29,30 +29,30 @@ let g:colors_name="noir"
 " 255: #eeeeee
 
 " Define Special Colors:
-hi Normal     ctermfg=250 ctermbg=16
-hi SpellRare  ctermfg=124
-hi Constant   ctermfg=252
-hi SpellBad   ctermfg=250 ctermbg=88
-hi Error      ctermfg=255 ctermbg=88
-hi DiffText   ctermfg=250 ctermbg=196
-hi Search     ctermfg=245 ctermbg=236
-hi PmenuThumb ctermfg=232 ctermbg=240
-hi Pmenu      ctermfg=255 ctermbg=240
-hi IncSearch  ctermfg=255 ctermbg=245
-hi WildMenu   ctermfg=240 ctermbg=255
-hi Underlined ctermfg=250 term=underline cterm=underline 
+hi Normal     cterm=NONE ctermfg=250 ctermbg=16
+hi SpellRare  cterm=NONE ctermfg=124
+hi Constant   cterm=NONE ctermfg=252
+hi SpellBad   cterm=NONE ctermfg=250 ctermbg=88
+hi Error      cterm=NONE ctermfg=255 ctermbg=88
+hi DiffText   cterm=NONE ctermfg=250 ctermbg=196
+hi Search     cterm=NONE ctermfg=245 ctermbg=236
+hi PmenuThumb cterm=NONE ctermfg=232 ctermbg=240
+hi Pmenu      cterm=NONE ctermfg=255 ctermbg=240
+hi IncSearch  cterm=NONE ctermfg=255 ctermbg=245
+hi WildMenu   cterm=NONE ctermfg=240 ctermbg=255
+hi Underlined cterm=underline ctermfg=250 term=underline
 
 " Color Groups:
-hi Group1     ctermfg=196
-hi Group2     ctermfg=240
-hi Group3     ctermfg=245
-hi Group4     ctermfg=250
-hi Group5     ctermfg=255
-hi Group6     ctermfg=255 ctermbg=124
-hi Group7     ctermfg=16  ctermbg=245
-hi Group8     ctermfg=16  ctermbg=250
-hi Group9     ctermfg=16  ctermbg=255
-hi Group10    ctermfg=160 ctermbg=255
+hi Group1     cterm=NONE ctermfg=196
+hi Group2     cterm=NONE ctermfg=240
+hi Group3     cterm=NONE ctermfg=245
+hi Group4     cterm=NONE ctermfg=250
+hi Group5     cterm=NONE ctermfg=255
+hi Group6     cterm=NONE ctermfg=255 ctermbg=124
+hi Group7     cterm=NONE ctermfg=16  ctermbg=245
+hi Group8     cterm=NONE ctermfg=16  ctermbg=250
+hi Group9     cterm=NONE ctermfg=16  ctermbg=255
+hi Group10    cterm=NONE ctermfg=160 ctermbg=255
 
 " Highlight:
 hi! link Character       Group1
