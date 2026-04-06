@@ -15,6 +15,15 @@ call plug#end()
 to either `~/.vim/vimrc` (if using vim) or `~/.config/nvim/init.vim` (if using
 NeoVIM), then in a (Neo)VIM session, invoke `:PlugInstall`.
 
+If using NeoVIM>=0.12, add the following to `init.lua`
+
+```lua
+vim.pack.add({
+  "https://github.com/luiarthur/red.vim",
+  -- Optionally, add other packages
+})
+```
+
 To activate the color scheme, add the line `silent! colorscheme red` or
 `silent! colorscheme noir` in your `~/.vim/vimrc` or `~/.config/nvim/init.vim`.
 Alternatively, you can set the color scheme in your (Neo)VIM session by typing

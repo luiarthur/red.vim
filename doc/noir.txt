@@ -1,12 +1,14 @@
 *noir*  A color scheme with mostly reds and greys
 
-_  _ ____ _ ____  _  _ _ _  _  ~
-|\ | |  | | |__/  |  | | |\/|  ~
-| \| |__| | |  \ . \/  | |  |  ~
+>
+ _  _ ____ _ ____  _  _ _ _  _ 
+ |\ | |  | | |__/  |  | | |\/|
+ | \| |__| | |  \ . \/  | |  |
+<
 
-- Author: Arthur Lui
-- Date: 26 March 2022
-- Repo: https://github.com/luiarthur/red.vim
+* Author: Arthur Lui
+* Date: 26 March 2022
+* Repo: https://github.com/luiarthur/red.vim
 
 To try out the color scheme, execute: `:colorscheme noir` in a (Neo)VIM session.
 
@@ -14,3 +16,5 @@ To apply the color scheme at startup, add the following to `~/.vim/vimrc` (VIM)
 or `~/.config/nvim/init.vim` (NeoVIM): `silent! colorscheme noir`.
 
 This colorscheme looks best with a black background.
+
+vim:tw=80:ft=help
